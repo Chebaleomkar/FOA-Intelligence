@@ -19,12 +19,9 @@ PyYAML>=6.0.1
 # Export
 pandas>=2.2.0
 
-# Optional: Vector store (stretch goal)
-# faiss-cpu>=1.7.4
-# chromadb>=0.4.0
-
-# Optional: LLM-assisted classification (stretch goal)
-# groq>=0.4.0
+# Dashboard & Visualization
+streamlit>=1.31.0
+plotly>=5.18.0
 
 # Development
 pytest>=8.0.0
