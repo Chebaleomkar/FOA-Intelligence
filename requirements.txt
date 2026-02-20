@@ -1,0 +1,30 @@
+# Core dependencies
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+pydantic>=2.5.0
+python-dateutil>=2.8.2
+
+# PDF parsing
+pdfminer.six>=20231228
+
+# NLP & Embeddings
+sentence-transformers>=2.5.0
+scikit-learn>=1.4.0
+numpy>=1.26.0
+
+# Semantic tagging
+spacy>=3.7.0
+PyYAML>=6.0.1
+
+# Export
+pandas>=2.2.0
+
+# Optional: Vector store (stretch goal)
+# faiss-cpu>=1.7.4
+# chromadb>=0.4.0
+
+# Optional: LLM-assisted classification (stretch goal)
+# groq>=0.4.0
+
+# Development
+pytest>=8.0.0
