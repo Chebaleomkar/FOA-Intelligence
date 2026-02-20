@@ -1,0 +1,267 @@
+# ============================================================
+# FOA Intelligence — Controlled Ontology for Semantic Tagging
+# ============================================================
+# This ontology defines the controlled vocabulary used to
+# semantically tag Funding Opportunity Announcements (FOAs).
+#
+# Categories:
+#   1. research_domains  — What field of research?
+#   2. methods           — What research methods?
+#   3. populations       — Who is studied/served?
+#   4. sponsor_themes    — What strategic themes?
+# ============================================================
+
+research_domains:
+  - name: artificial_intelligence
+    synonyms:
+      - AI
+      - machine learning
+      - deep learning
+      - neural network
+      - data science
+      - predictive modeling
+    children:
+      - natural_language_processing
+      - computer_vision
+      - reinforcement_learning
+      - robotics
+
+  - name: biomedical
+    synonyms:
+      - health
+      - medical
+      - clinical
+      - pharmaceutical
+      - biotech
+      - biomedicine
+    children:
+      - genomics
+      - epidemiology
+      - mental_health
+      - public_health
+      - drug_discovery
+
+  - name: environmental_science
+    synonyms:
+      - climate
+      - ecology
+      - sustainability
+      - earth science
+      - conservation
+      - biodiversity
+      - environmental
+
+  - name: engineering
+    synonyms:
+      - civil engineering
+      - mechanical engineering
+      - electrical engineering
+      - materials science
+      - manufacturing
+
+  - name: social_science
+    synonyms:
+      - sociology
+      - psychology
+      - anthropology
+      - economics
+      - political science
+      - behavioral science
+
+  - name: education
+    synonyms:
+      - STEM education
+      - K-12
+      - higher education
+      - curriculum
+      - pedagogy
+      - training
+      - workforce development
+
+  - name: cybersecurity
+    synonyms:
+      - information security
+      - cyber defense
+      - network security
+      - privacy
+      - data protection
+
+  - name: energy
+    synonyms:
+      - renewable energy
+      - solar
+      - wind
+      - nuclear
+      - fossil fuel
+      - clean energy
+      - energy storage
+      - grid
+
+  - name: agriculture
+    synonyms:
+      - farming
+      - crop science
+      - food security
+      - livestock
+      - agricultural technology
+
+  - name: space_science
+    synonyms:
+      - astronomy
+      - astrophysics
+      - satellite
+      - space exploration
+      - planetary science
+
+methods:
+  - name: computational_modeling
+    synonyms:
+      - simulation
+      - numerical modeling
+      - computational analysis
+      - modeling and simulation
+
+  - name: survey_research
+    synonyms:
+      - questionnaire
+      - polling
+      - survey instrument
+
+  - name: field_study
+    synonyms:
+      - fieldwork
+      - observational study
+      - in-situ research
+
+  - name: experimental
+    synonyms:
+      - laboratory
+      - controlled experiment
+      - randomized controlled trial
+      - RCT
+      - clinical trial
+
+  - name: mixed_methods
+    synonyms:
+      - qualitative and quantitative
+      - multi-method
+
+  - name: data_analytics
+    synonyms:
+      - big data
+      - data mining
+      - statistical analysis
+      - analytics
+
+  - name: literature_review
+    synonyms:
+      - systematic review
+      - meta-analysis
+      - scoping review
+
+populations:
+  - name: underserved_communities
+    synonyms:
+      - disadvantaged
+      - marginalized
+      - underrepresented
+      - low-income
+      - minority
+
+  - name: veterans
+    synonyms:
+      - military
+      - service members
+      - armed forces
+
+  - name: youth
+    synonyms:
+      - children
+      - adolescents
+      - students
+      - K-12
+      - young adults
+
+  - name: elderly
+    synonyms:
+      - aging
+      - senior citizens
+      - older adults
+      - geriatric
+
+  - name: indigenous
+    synonyms:
+      - Native American
+      - tribal
+      - First Nations
+      - aboriginal
+
+  - name: rural_communities
+    synonyms:
+      - rural
+      - remote areas
+      - non-urban
+
+  - name: persons_with_disabilities
+    synonyms:
+      - disability
+      - ADA
+      - accessibility
+      - assistive technology
+
+sponsor_themes:
+  - name: innovation
+    synonyms:
+      - breakthrough
+      - novel
+      - transformative
+      - cutting-edge
+      - emerging technology
+
+  - name: workforce_development
+    synonyms:
+      - skills training
+      - workforce
+      - employment
+      - job creation
+      - career development
+
+  - name: national_security
+    synonyms:
+      - defense
+      - homeland security
+      - intelligence
+      - military readiness
+
+  - name: equity_and_inclusion
+    synonyms:
+      - diversity
+      - inclusion
+      - DEI
+      - social justice
+      - equal opportunity
+      - broadening participation
+
+  - name: infrastructure
+    synonyms:
+      - transportation
+      - broadband
+      - construction
+      - public works
+      - critical infrastructure
+
+  - name: economic_development
+    synonyms:
+      - economy
+      - GDP
+      - trade
+      - entrepreneurship
+      - small business
+
+  - name: international_collaboration
+    synonyms:
+      - global
+      - partnership
+      - bilateral
+      - multilateral
+      - international cooperation
