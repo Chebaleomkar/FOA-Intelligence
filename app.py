@@ -58,7 +58,7 @@ with st.sidebar:
     st.markdown("---")
     
     st.header("Search Settings")
-    source = st.selectbox("Data Source", ["grants_gov", "nsf"], index=0)
+    source = st.selectbox("Data Source", ["grants_gov", "nsf"], index=1)
     max_results = st.slider("Max Results", 1, 50, 10)
     use_embeddings = st.checkbox("Use Semantic Embeddings", value=False, help="Requires sentence-transformers")
     
